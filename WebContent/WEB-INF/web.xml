@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+	
+	
+	
+	<!-- 配置JFreeChart组件 -->
+	<servlet>
+		<servlet-name>DisplayChart</servlet-name>
+		<servlet-class>org.jfree.chart.servlet.DisplayChart</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DisplayChart</servlet-name>
+		<url-pattern>/servlet/DisplayChart</url-pattern>
+	</servlet-mapping>
+	<servlet>
+        <servlet-name>barService</servlet-name>
+        <servlet-class>com.lgw.servlet.BarService</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>barService</servlet-name>
+        <url-pattern>/bar.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>jsoService</servlet-name>
+        <servlet-class>com.lgw.servlet.JsoService</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>jsoService</servlet-name>
+        <url-pattern>/jso.do</url-pattern>
+    </servlet-mapping>
+    
+    	<servlet>
+        <servlet-name>barService2</servlet-name>
+        <servlet-class>com.lgw.servlet.BarService2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>barService2</servlet-name>
+        <url-pattern>/bar2.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>jsoService2</servlet-name>
+        <servlet-class>com.lgw.servlet.JsoService2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>jsoService2</servlet-name>
+        <url-pattern>/jso2.do</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>barService3</servlet-name>
+        <servlet-class>com.lgw.servlet.BarService3</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>barService3</servlet-name>
+        <url-pattern>/bar3.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>jsoService3</servlet-name>
+        <servlet-class>com.lgw.servlet.JsoService3</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>jsoService3</servlet-name>
+        <url-pattern>/jso3.do</url-pattern>
+    </servlet-mapping>
+    
+    
+</web-app>
+
