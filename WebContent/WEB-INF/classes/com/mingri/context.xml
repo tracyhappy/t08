@@ -1,7 +1,0 @@
-<Context>
-	<Resource name="jdbc/mingri" type="javax.sql.DataSource"
-		auth="Container"
-		driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
-		url="jdbc:sqlserver://10.49.211.95:1433;DatabaseName=BDMS"
-		username="sa" password="1qaz@WSX" maxActive="50" maxIdle="10" maxWait="6000" />
-</Context>

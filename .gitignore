@@ -1,3 +1,6 @@
+
+.class
+
 # maven ignore
 target/
 *.jar
@@ -30,4 +33,3 @@ Thumbs.db
 
 # else
 .springBeans
-.class
