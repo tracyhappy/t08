@@ -86,7 +86,7 @@
         };
         
         function query(){ 
-            loadData(option)
+            loadData(option);
             myChart.setOption(option); 
         }
         
